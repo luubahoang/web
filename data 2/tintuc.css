@@ -1,0 +1,141 @@
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font: 1.2em Helvetica, arial, sans-serif;
+    display: grid;
+  }
+  main,
+  header,
+  footer {
+    border: 1px solid #ccc7c8;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  header {
+    height: 100px;
+    background-image: url(./images/header.png);
+    border: 1px solid #ccc7c8;
+    padding: 0px 5px;
+    height: 100px;
+  }
+  #headerimg1 {
+    position: absolute;
+    animation: Move1 3s forwards;
+    height: 100px;
+    top: -30px;
+    left: 80%;
+  }
+  @keyframes Move1 {
+    form {
+      left: 80%;
+    }
+    to {
+      left: 30%;
+    }
+  }
+  #headerimg2 {
+    position: absolute;
+    animation: Move2 3s forwards;
+    height: 70px;
+    top: -5px;
+    left: 80%;
+  }
+  @keyframes Move2 {
+    form {
+      left: 80%;
+    }
+    to {
+      left: 45%;
+    }
+  }
+  #headerimg3 {
+    position: absolute;
+    animation: Move3 3s forwards;
+    height: 80px;
+    top: 0%;
+    left: 80%;
+  }
+  @keyframes Move3 {
+    form {
+      left: 80%;
+    }
+    to {
+      left: 63%;
+    }
+  }
+  nav {
+    margin-top: 25px;
+  }
+  nav a {
+    float: left;
+    color: #ed4190;
+    padding: 2px 4px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin: 3px;
+    text-decoration: none;
+    height: 20px;
+    font-size: 17px;
+    background-color: #ffffff80;
+    box-shadow: 0 0 3px 0 #00000066, 0 0 2px 0 #0000004d;
+  }
+  nav a:hover
+{ color:#fff;
+background: #ed4190;
+}
+  .search-container {
+    float: right;
+    padding-top: 3px;
+  }
+
+  .icon-white,
+  .icon-pink {
+    padding: 4px;
+    background: #cddc39;
+    min-width: 30px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .icon-pink {
+    color: #ed4190;
+  }
+  footer {
+    margin: 2px;
+    border: 1px solid #ccc7c8;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .gotop {
+    float: right;
+    margin-right: 5px;
+  }
+  .social-icon{
+    color: #ed4190;
+  }
+  .khoitong1{
+    display: grid;
+    grid-template-columns: 300px 700px;
+  }
+  .khoicon1{
+    grid-row: 1/2;
+    margin: 10px;
+  }
+  .khoia1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .a1{
+    grid-row: 1/3;
+  }
+  h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #ed4190;
+    font-size: 27px;
+  }
+  h2{
+    text-transform: uppercase;
+    color: #ed4190;
+    font-size: 25px;
+  }
